@@ -1,9 +1,9 @@
-import time
+import time,
 import smtplib as x
 from multiprocessing import Process, Value, Lock
 
-username = input("Email: ")
-pword = input("Password: ")
+username = ""
+pword = ""
 number=1
 server = x.SMTP_SSL('smtp.gmail.com', 465)
 sender = 'Hey'
